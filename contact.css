@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one{
+    background-color: #0C0C0C;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section-one__name{
+    font-size: 50px;
+}
+
+.section-one__role{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.section-one__contact{
+    background-color: #F2613F;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.section-one__contact:hover{
+    background-color: #ff2f00;
+}
+
+.section-two{
+    margin-top: 30px;
+    height: 300px;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.section-two table td{
+    padding: 10px;
+}
+.section-two table .sizes{
+    width: 300px;
+}
+
+.section-two textarea{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.section-two .button{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-two button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F2613F;
+    letter-spacing: 1px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+}
+
+.section-two button:hover{
+    background-color: #ff2f00;
+    letter-spacing: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.section-two input{
+    width: 100%;
+    padding: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.section-three{
+    background-color: #0C0C0C;
+    padding: 20px;
+    margin-top: 30px;
+    color: #fff;
+}
+.section-three a{
+    color: skyblue;
+    text-decoration: none;
+}
